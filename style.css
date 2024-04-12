@@ -1,0 +1,43 @@
+/* Estilos Tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Encabezado y datos */
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+}
+
+/* Encabezado de Datos */
+th {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Celda de Datos */
+td {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+/* Estilos datos concentrados */
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary-item {
+    margin: 0 10px;
+}
+
